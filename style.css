@@ -1,0 +1,799 @@
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    background-color: cyan;
+    text-shadow: 5px 5px 5px grey;
+}
+a{
+    text-align: center;
+    display:inline-block;
+    color: black;
+    background-color:cornflowerblue;
+    display:inline-block;
+    height: 100px;
+    width: 200px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+
+}
+button{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+  h2{
+    background-color:coral ;
+    color: aliceblue;
+    text-shadow: 5px 5px 5px grey;
+    font-size: 3rem;
+}
+h4{
+    background-color:coral ;
+    color: aliceblue;
+    text-shadow: 5px 5px 5px grey;
+    font-size: 3rem;
+
+  }
+
+  .row{
+    background-color:indigo;
+    display: flex;
+    flex-direction: row;   
+     height: 100px;
+      }
+    .row>div{
+    background-color: #f1f1f1;
+      width: 100px;
+     line-height:  75px;
+      margin: 10px;
+      text-align: center;
+      font-size: 4rem; 
+    }
+    .rowrev{
+      background-color:indigo;
+      display: flex;
+      flex-direction: row-reverse;   
+       height: 100px;
+        }
+      .rowrev>div{
+      background-color: #f1f1f1;
+        width: 100px;
+       line-height:  75px;
+        margin: 10px;
+        text-align: center;
+        font-size: 4rem; 
+      }
+      .col{
+        background-color:indigo;
+        display: flex;
+        flex-direction: column;   
+          }
+        .col>div{
+        background-color: #f1f1f1;
+          width: 100px;
+         line-height:  75px;
+          margin: 10px;
+          text-align: center;
+          font-size: 4rem; 
+        }
+        .colrev{
+          background-color:indigo;
+          display: flex;
+          flex-direction: column-reverse;   
+            }
+          .colrev>div{
+          background-color: #f1f1f1;
+            width: 100px;
+           line-height:  75px;
+            margin: 10px;
+            text-align: center;
+            font-size: 4rem; 
+          }
+          .nowrap{
+            background-color:indigo;
+            display: flex;
+            flex-direction: row;   
+            flex-wrap: nowrap;
+              }
+            .nowrap>div{
+            background-color: #f1f1f1;
+              width: 100px;
+             line-height:  75px;
+              margin: 10px;
+              text-align: center;
+              font-size: 4rem; 
+            }
+            .wrap{
+              background-color:indigo;
+              display: flex;
+              flex-direction: row;   
+              flex-wrap: wrap;
+                }
+              .wrap>div{
+              background-color: #f1f1f1;
+                width: 100px;
+               line-height:  75px;
+                margin: 10px;
+                text-align: center;
+                font-size: 4rem; 
+              }
+              .wraprev{
+                background-color:indigo;
+                display: flex;
+                flex-direction: row;   
+                flex-wrap: wrap-reverse;
+                  }
+                .wraprev>div{
+                background-color: #f1f1f1;
+                  width: 100px;
+                 line-height:  75px;
+                  margin: 10px;
+                  text-align: center;
+                  font-size: 4rem; 
+                }
+                .FDrJCsAIs{
+                  background-color:indigo;
+                  display: flex;
+                  flex-direction: row; 
+                  justify-content: start;  
+                  align-items: flex-start;
+                  height: 400px;
+                    }
+                  .FDrJCsAIs>div{
+                  background-color: #f1f1f1;
+                    width: 100px;
+                   line-height:  75px;
+                    margin: 10px;
+                    text-align: start;
+                    font-size: 4rem; 
+                  }
+                  .FDrJCsAIc{
+                    background-color:indigo;
+                    display: flex;
+                    flex-direction: row; 
+                    justify-content: start;  
+                    align-items: center;
+                    height: 400px;
+                      }
+                    .FDrJCsAIc>div{
+                    background-color: #f1f1f1;
+                      width: 100px;
+                     line-height:  75px;
+                      margin: 10px;
+                      text-align: center;
+                      font-size: 4rem; 
+                    }
+                    .FDrJCsAIe{
+                      background-color:indigo;
+                      display: flex;
+                      flex-direction: row; 
+                      justify-content: start;  
+                      align-items: flex-end;
+                      height: 400px;
+                        }
+                      .FDrJCsAIe>div{
+                      background-color: #f1f1f1;
+                        width: 100px;
+                       line-height:  75px;
+                        margin: 10px;
+                        text-align: center;
+                        font-size: 4rem; 
+                      }
+
+                      .FDrJCcAIs{
+                        background-color:indigo;
+                        display: flex;
+                        flex-direction: row; 
+                        justify-content: center;  
+                        align-items: flex-start;
+                        height: 400px;
+                          }
+                        .FDrJCcAIs>div{
+                        background-color: #f1f1f1;
+                          width: 100px;
+                         line-height:  75px;
+                          margin: 10px;
+                          text-align: start;
+                          font-size: 4rem; 
+                        }
+                        .FDrJCcAIc{
+                          background-color:indigo;
+                          display: flex;
+                          flex-direction: row; 
+                          justify-content: center;  
+                          align-items: center;
+                          height: 400px;
+                            }
+                          .FDrJCcAIc>div{
+                          background-color: #f1f1f1;
+                            width: 100px;
+                           line-height:  75px;
+                            margin: 10px;
+                            text-align: center;
+                            font-size: 4rem; 
+                          }
+                          .FDrJCcAIe{
+                            background-color:indigo;
+                            display: flex;
+                            flex-direction: row; 
+                            justify-content: center;  
+                            align-items: flex-end;
+                            height: 400px;
+                              }
+                            .FDrJCcAIe>div{
+                            background-color: #f1f1f1;
+                              width: 100px;
+                             line-height:  75px;
+                              margin: 10px;
+                              text-align: center;
+                              font-size: 4rem; 
+                            }
+                            .FDrJCeAIs{
+                              background-color:indigo;
+                              display: flex;
+                              flex-direction: row; 
+                              justify-content: end;  
+                              align-items: flex-start;
+                              height: 400px;
+                                }
+                              .FDrJCeAIs>div{
+                              background-color: #f1f1f1;
+                                width: 100px;
+                               line-height:  75px;
+                                margin: 10px;
+                                text-align: start;
+                                font-size: 4rem; 
+                              }
+                              .FDrJCeAIc{
+                                background-color:indigo;
+                                display: flex;
+                                flex-direction: row; 
+                                justify-content: end;  
+                                align-items: center;
+                                height: 400px;
+                                  }
+                                .FDrJCeAIc>div{
+                                background-color: #f1f1f1;
+                                  width: 100px;
+                                 line-height:  75px;
+                                  margin: 10px;
+                                  text-align: center;
+                                  font-size: 4rem; 
+                                }
+                                .FDrJCeAIe{
+                                  background-color:indigo;
+                                  display: flex;
+                                  flex-direction: row; 
+                                  justify-content: end;  
+                                  align-items: flex-end;
+                                  height: 400px;
+                                    }
+                                  .FDrJCeAIe>div{
+                                  background-color: #f1f1f1;
+                                    width: 100px;
+                                   line-height:  75px;
+                                    margin: 10px;
+                                    text-align: center;
+                                    font-size: 4rem; 
+                                  }
+                      
+                                  .FDrrJCsAIs{
+                                    background-color:indigo;
+                                    display: flex;
+                                    flex-direction: row-reverse; 
+                                    justify-content: start;  
+                                    align-items: flex-start;
+                                    height: 400px;
+                                      }
+                                    .FDrrJCsAIs>div{
+                                    background-color: #f1f1f1;
+                                      width: 100px;
+                                     line-height:  75px;
+                                      margin: 10px;
+                                      text-align: start;
+                                      font-size: 4rem; 
+                                    }
+                                    .FDrrJCsAIc{
+                                      background-color:indigo;
+                                      display: flex;
+                                      flex-direction: row-reverse; 
+                                      justify-content: start;  
+                                      align-items: center;
+                                      height: 400px;
+                                        }
+                                      .FDrrJCsAIc>div{
+                                      background-color: #f1f1f1;
+                                        width: 100px;
+                                       line-height:  75px;
+                                        margin: 10px;
+                                        text-align: center;
+                                        font-size: 4rem; 
+                                      }
+                                      .FDrrJCsAIe{
+                                        background-color:indigo;
+                                        display: flex;
+                                        flex-direction: row-reverse; 
+                                        justify-content: start;  
+                                        align-items: flex-end;
+                                        height: 400px;
+                                          }
+                                        .FDrrJCsAIe>div{
+                                        background-color: #f1f1f1;
+                                          width: 100px;
+                                         line-height:  75px;
+                                          margin: 10px;
+                                          text-align: center;
+                                          font-size: 4rem; 
+                                        }
+                  
+                                        .FDrrJCcAIs{
+                                          background-color:indigo;
+                                          display: flex;
+                                          flex-direction: row-reverse; 
+                                          justify-content: center;  
+                                          align-items: flex-start;
+                                          height: 400px;
+                                            }
+                                          .FDrrJCcAIs>div{
+                                          background-color: #f1f1f1;
+                                            width: 100px;
+                                           line-height:  75px;
+                                            margin: 10px;
+                                            text-align: start;
+                                            font-size: 4rem; 
+                                          }
+                                          .FDrrJCcAIc{
+                                            background-color:indigo;
+                                            display: flex;
+                                            flex-direction: row-reverse; 
+                                            justify-content: center;  
+                                            align-items: center;
+                                            height: 400px;
+                                              }
+                                            .FDrrJCcAIc>div{
+                                            background-color: #f1f1f1;
+                                              width: 100px;
+                                             line-height:  75px;
+                                              margin: 10px;
+                                              text-align: center;
+                                              font-size: 4rem; 
+                                            }
+                                            .FDrrJCcAIe{
+                                              background-color:indigo;
+                                              display: flex;
+                                              flex-direction: row-reverse; 
+                                              justify-content: center;  
+                                              align-items: flex-end;
+                                              height: 400px;
+                                                }
+                                              .FDrrJCcAIe>div{
+                                              background-color: #f1f1f1;
+                                                width: 100px;
+                                               line-height:  75px;
+                                                margin: 10px;
+                                                text-align: center;
+                                                font-size: 4rem; 
+                                              }
+                                              .FDrrJCeAIs{
+                                                background-color:indigo;
+                                                display: flex;
+                                                flex-direction: row-reverse; 
+                                                justify-content: end;  
+                                                align-items: flex-start;
+                                                height: 400px;
+                                                  }
+                                                .FDrrJCeAIs>div{
+                                                background-color: #f1f1f1;
+                                                  width: 100px;
+                                                 line-height:  75px;
+                                                  margin: 10px;
+                                                  text-align: start;
+                                                  font-size: 4rem; 
+                                                }
+                                                .FDrrJCeAIc{
+                                                  background-color:indigo;
+                                                  display: flex;
+                                                  flex-direction: row-reverse; 
+                                                  justify-content: end;  
+                                                  align-items: center;
+                                                  height: 400px;
+                                                    }
+                                                  .FDrrJCeAIc>div{
+                                                  background-color: #f1f1f1;
+                                                    width: 100px;
+                                                   line-height:  75px;
+                                                    margin: 10px;
+                                                    text-align: center;
+                                                    font-size: 4rem; 
+                                                  }
+                                                  .FDrrJCeAIe{
+                                                    background-color:indigo;
+                                                    display: flex;
+                                                    flex-direction: row-reverse; 
+                                                    justify-content: end;  
+                                                    align-items: flex-end;
+                                                    height: 400px;
+                                                      }
+                                                    .FDrrJCeAIe>div{
+                                                    background-color: #f1f1f1;
+                                                      width: 100px;
+                                                     line-height:  75px;
+                                                      margin: 10px;
+                                                      text-align: center;
+                                                      font-size: 4rem; 
+                                                    }
+
+
+                                                    .FDcJCsAIs{
+                                                      background-color:indigo;
+                                                      display: flex;
+                                                      flex-direction: column; 
+                                                      justify-content: start;  
+                                                      align-items: flex-start;
+                                                      height: 800px;
+
+                                                        }
+                                                      .FDcJCsAIs>div{
+                                                      background-color: #f1f1f1;
+                                                        width: 100px;
+                                                       line-height:  75px;
+                                                        margin: 10px;
+                                                        text-align: start;
+                                                        font-size: 4rem; 
+                                                      }
+                                                      .FDcJCsAIc{
+                                                        background-color:indigo;
+                                                        display: flex;
+                                                        flex-direction: column; 
+                                                        justify-content: start;  
+                                                        align-items: center;
+                                                        height: 800px;
+
+                                                          }
+                                                        .FDcJCsAIc>div{
+                                                        background-color: #f1f1f1;
+                                                          width: 100px;
+                                                         line-height:  75px;
+                                                          margin: 10px;
+                                                          text-align: center;
+                                                          font-size: 4rem; 
+                                                        }
+                                                        .FDcJCsAIe{
+                                                          background-color:indigo;
+                                                          display: flex;
+                                                          flex-direction: column; 
+                                                          justify-content: start;  
+                                                          align-items: flex-end;
+                                                          height: 800px;
+
+                                                            }
+                                                          .FDcJCsAIe>div{
+                                                          background-color: #f1f1f1;
+                                                            width: 100px;
+                                                           line-height:  75px;
+                                                            margin: 10px;
+                                                            text-align: center;
+                                                            font-size: 4rem; 
+                                                          }
+                                    
+                                                          .FDcJCcAIs{
+                                                            background-color:indigo;
+                                                            display: flex;
+                                                            flex-direction: column; 
+                                                            justify-content: center;  
+                                                            align-items: flex-start;
+                                                            height: 800px;
+
+                                                              }
+                                                            .FDcJCcAIs>div{
+                                                            background-color: #f1f1f1;
+                                                              width: 100px;
+                                                             line-height:  75px;
+                                                              margin: 10px;
+                                                              text-align: start;
+                                                              font-size: 4rem; 
+                                                            }
+                                                            .FDcJCcAIc{
+                                                              background-color:indigo;
+                                                              display: flex;
+                                                              flex-direction: column; 
+                                                              justify-content: center;  
+                                                              align-items: center;
+                                                              height: 800px;
+
+                                                                }
+                                                              .FDcJCcAIc>div{
+                                                              background-color: #f1f1f1;
+                                                                width: 100px;
+                                                               line-height:  75px;
+                                                                margin: 10px;
+                                                                text-align: center;
+                                                                font-size: 4rem; 
+                                                              }
+                                                              .FDcJCcAIe{
+                                                                background-color:indigo;
+                                                                display: flex;
+                                                                flex-direction: column; 
+                                                                justify-content: center;  
+                                                                align-items: flex-end;
+                                                                height: 800px;
+
+                                                                  }
+                                                                .FDcJCcAIe>div{
+                                                                background-color: #f1f1f1;
+                                                                  width: 100px;
+                                                                 line-height:  75px;
+                                                                  margin: 10px;
+                                                                  text-align: center;
+                                                                  font-size: 4rem; 
+                                                                }
+                                                                .FDcJCeAIs{
+                                                                  background-color:indigo;
+                                                                  display: flex;
+                                                                  flex-direction: column; 
+                                                                  justify-content: end;  
+                                                                  align-items: flex-start;
+                                                                  height: 800px;
+
+                                                                    }
+                                                                  .FDcJCeAIs>div{
+                                                                  background-color: #f1f1f1;
+                                                                    width: 100px;
+                                                                   line-height:  75px;
+                                                                    margin: 10px;
+                                                                    text-align: start;
+                                                                    font-size: 4rem; 
+                                                                  }
+                                                                  .FDcJCeAIc{
+                                                                    background-color:indigo;
+                                                                    display: flex;
+                                                                    flex-direction: column; 
+                                                                    justify-content: end;  
+                                                                    align-items: center;
+                                                                    height: 800px;
+
+                                                                      }
+                                                                    .FDcJCeAIc>div{
+                                                                    background-color: #f1f1f1;
+                                                                      width: 100px;
+                                                                     line-height:  75px;
+                                                                      margin: 10px;
+                                                                      text-align: center;
+                                                                      font-size: 4rem; 
+                                                                    }
+                                                                    .FDcJCeAIe{
+                                                                      background-color:indigo;
+                                                                      display: flex;
+                                                                      flex-direction: column; 
+                                                                      justify-content: end;  
+                                                                      align-items: flex-end;
+                                                                      height: 800px;
+
+                                                                        }
+                                                                      .FDcJCeAIe>div{
+                                                                      background-color: #f1f1f1;
+                                                                        width: 100px;
+                                                                       line-height:  75px;
+                                                                        margin: 10px;
+                                                                        text-align: center;
+                                                                        font-size: 4rem; 
+                                                                      }
+                                                          
+                                                                      .FDccJCsAIs{
+                                                                        background-color:indigo;
+                                                                        display: flex;
+                                                                        flex-direction: column-reverse; 
+                                                                        justify-content: start;  
+                                                                        align-items: flex-start;
+                                                                        height: 800px;
+
+                                                                          }
+                                                                        .FDccJCsAIs>div{
+                                                                        background-color: #f1f1f1;
+                                                                          width: 100px;
+                                                                         line-height:  75px;
+                                                                          margin: 10px;
+                                                                          text-align: start;
+                                                                          font-size: 4rem; 
+                                                                        }
+                                                                        .FDccJCsAIc{
+                                                                          background-color:indigo;
+                                                                          display: flex;
+                                                                          flex-direction: column-reverse; 
+                                                                          justify-content: start;  
+                                                                          align-items: center;
+                                                                          height: 800px;
+
+                                                                            }
+                                                                          .FDccJCsAIc>div{
+                                                                          background-color: #f1f1f1;
+                                                                            width: 100px;
+                                                                           line-height:  75px;
+                                                                            margin: 10px;
+                                                                            text-align: center;
+                                                                            font-size: 4rem; 
+                                                                          }
+                                                                          .FDccJCsAIe{
+                                                                            background-color:indigo;
+                                                                            display: flex;
+                                                                            flex-direction: column-reverse; 
+                                                                            justify-content: start;  
+                                                                            align-items: flex-end;
+                                                                            height: 800px;
+                                                                              }
+                                                                            .FDccJCsAIe>div{
+                                                                            background-color: #f1f1f1;
+                                                                              width: 100px;
+                                                                             line-height:  75px;
+                                                                              margin: 10px;
+                                                                              text-align: center;
+                                                                              font-size: 4rem; 
+                                                                            }
+                                                      
+                                                                            .FDccJCcAIs{
+                                                                              background-color:indigo;
+                                                                              display: flex;
+                                                                              flex-direction: column-reverse; 
+                                                                              justify-content: center;  
+                                                                              align-items: flex-start;
+                                                                              height: 800px;
+                                                                                }
+                                                                              .FDccJCcAIs>div{
+                                                                              background-color: #f1f1f1;
+                                                                                width: 100px;
+                                                                               line-height:  75px;
+                                                                                margin: 10px;
+                                                                                text-align: start;
+                                                                                font-size: 4rem; 
+                                                                              }
+                                                                              .FDccJCcAIc{
+                                                                                background-color:indigo;
+                                                                                display: flex;
+                                                                                flex-direction: column-reverse; 
+                                                                                justify-content: center;  
+                                                                                align-items: center;
+                                                                                height: 800px;
+                                                                                  }
+                                                                                .FDccJCcAIc>div{
+                                                                                background-color: #f1f1f1;
+                                                                                  width: 100px;
+                                                                                 line-height:  75px;
+                                                                                  margin: 10px;
+                                                                                  text-align: center;
+                                                                                  font-size: 4rem; 
+                                                                                }
+                                                                                .FDccJCcAIe{
+                                                                                  background-color:indigo;
+                                                                                  display: flex;
+                                                                                  flex-direction: column; 
+                                                                                  justify-content: center;  
+                                                                                  align-items: flex-end;
+                                                                                  height: 800px;
+
+                                                                                    }
+                                                                                  .FDccJCcAIe>div{
+                                                                                  background-color: #f1f1f1;
+                                                                                    width: 100px;
+                                                                                   line-height:  75px;
+                                                                                    margin: 10px;
+                                                                                    text-align: center;
+                                                                                    font-size: 4rem; 
+                                                                                  }
+                                                                                  .FDccJCeAIs{
+                                                                                    background-color:indigo;
+                                                                                    display: flex;
+                                                                                    flex-direction: column-reverse; 
+                                                                                    justify-content: end;  
+                                                                                    align-items: flex-start;
+                                                                                    height: 800px;
+
+                                                                                      }
+                                                                                    .FDccJCeAIs>div{
+                                                                                    background-color: #f1f1f1;
+                                                                                      width: 100px;
+                                                                                     line-height:  75px;
+                                                                                      margin: 10px;
+                                                                                      text-align: start;
+                                                                                      font-size: 4rem; 
+                                                                                    }
+                                                                                    .FDccJCeAIc{
+                                                                                      background-color:indigo;
+                                                                                      display: flex;
+                                                                                      flex-direction: column-reverse; 
+                                                                                      justify-content: end;  
+                                                                                      align-items: center;
+                                                                                      height: 800px;
+
+                                                                                        }
+                                                                                      .FDccJCeAIc>div{
+                                                                                      background-color: #f1f1f1;
+                                                                                        width: 100px;
+                                                                                       line-height:  75px;
+                                                                                        margin: 10px;
+                                                                                        text-align: center;
+                                                                                        font-size: 4rem; 
+                                                                                      }
+                                                                                      .FDccJCeAIe{
+                                                                                        background-color:indigo;
+                                                                                        display: flex;
+                                                                                        flex-direction: column-reverse; 
+                                                                                        justify-content: end;  
+                                                                                        align-items: flex-end;
+                                                                                        height: 800px;
+
+                                                                                          }
+                                                                                        .FDccJCeAIe>div{
+                                                                                        background-color: #f1f1f1;
+                                                                                          width: 100px;
+                                                                                         line-height:  75px;
+                                                                                          margin: 10px;
+                                                                                          text-align: center;
+                                                                                          font-size: 4rem; 
+                                                                                        }
+                      
+                                                                                        .space{
+                                                                                          background-color:indigo;
+                                                                                          display: flex;
+                                                                                          flex-direction: row; 
+                                                                                          justify-content: space-around;  
+                                                                                          height: 100px;
+  
+                                                                                            }
+                                                                                          .space>div{
+                                                                                          background-color: #f1f1f1;
+                                                                                            width: 100px;
+                                                                                           line-height:  75px;
+                                                                                            margin: 10px;
+                                                                                            text-align: center;
+                                                                                            font-size: 4rem; 
+                                                                                          }
+                                                                                          .between{
+                                                                                            background-color:indigo;
+                                                                                            display: flex;
+                                                                                            flex-direction: row; 
+                                                                                            justify-content: space-between;  
+                                                                                            height: 100px;
+    
+                                                                                              }
+                                                                                            .between>div{
+                                                                                            background-color: #f1f1f1;
+                                                                                              width: 100px;
+                                                                                             line-height:  75px;
+                                                                                              margin: 10px;
+                                                                                              text-align: center;
+                                                                                              font-size: 4rem; 
+                                                                                            }
+                                                                                            .stretch{
+                                                                                              background-color:indigo;
+                                                                                              display: flex;
+                                                                                              flex-direction: row; 
+                                                                                              align-items: stretch;
+                                                                                              height: 300px;
+      
+                                                                                                }
+                                                                                              .stretch>div{
+                                                                                              background-color: #f1f1f1;
+                                                                                                width: 100px;
+                                                                                               line-height:  75px;
+                                                                                                margin: 10px;
+                                                                                                text-align: center;
+                                                                                                font-size: 4rem; 
+                                                                                              }
+                                                                                             
+                        

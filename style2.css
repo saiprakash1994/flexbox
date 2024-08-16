@@ -1,0 +1,195 @@
+.acbetween {
+    background-color: indigo;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 600px;
+    width: 600px;
+
+}
+
+.acbetween>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: start;
+    font-size: 4rem;
+}
+
+.acaround {
+    background-color: indigo;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 600px;
+    width: 600px;
+
+
+}
+
+.acaround>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: start;
+    font-size: 4rem;
+}
+
+.acstretch {
+    background-color: indigo;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 600px;
+    width: 600px;
+
+
+}
+
+.acstretch>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: start;
+    font-size: 4rem;
+}
+
+.accenter {
+    background-color: indigo;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 600px;
+    width: 600px;
+
+}
+
+.accenter>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: start;
+    font-size: 4rem;
+}
+
+.acstart {
+    background-color: indigo;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 600px;
+    width: 600px;
+
+
+}
+
+.acstart>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.acend {
+    background-color: indigo;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 600px;
+    width: 600px;
+
+
+}
+
+.acend>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.order {
+    background-color: indigo;
+    display: flex;
+}
+
+.order>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.grow {
+    background-color: indigo;
+    display: flex;
+}
+
+.grow>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.shrink {
+    background-color: indigo;
+    display: flex;
+    align-items: stretch;
+}
+
+.shrink>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.basis {
+    background-color: indigo;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.basis>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.alignself {
+    background-color: indigo;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.self {
+    background-color: #f1f1f1;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
